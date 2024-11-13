@@ -6,12 +6,12 @@ import {
   TouchableOpacity,
   Linking,
 } from "react-native";
-import { MaterialIcons } from "@expo/vector-icons"; // Importing icon library
+import { MaterialIcons } from "@expo/vector-icons";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar style="light" />
+      <StatusBar style="light" backgroundColor="#1D1F22" />
 
       {/* Header */}
       <View style={styles.header}>
@@ -101,6 +101,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     paddingTop: 10,
     paddingHorizontal: 16,
+    marginTop: 10,
   },
   profileLink: {
     flexDirection: "row",
